@@ -33,7 +33,7 @@ def get_response(model, model_behaviour, image, prompt):
     return response.text
 
 
-st.header("Inovice Extractor")
+st.header("Invoice Extractor")
 # Read teh prompt in text box
 prompt = "Generate a table from the invoice image"
 # interface to upload image
