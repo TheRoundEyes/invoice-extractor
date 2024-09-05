@@ -66,7 +66,7 @@ Item
 Price
 Quantity
 
-Your output should be in JSON format and should only be called "table", 
+Your output should be in JSON format and should only be called "table",  Format the JSON properly as it should be in a dictionary format.
 remove the "json" key from the output. Remove any other keys from the output.
 Make all your outputs strictly consistent!
 """
@@ -83,3 +83,4 @@ with col2:
 
         st.download_button(label="Download Excel"
                                  "", data=open(csv_file, "rb"), file_name=csv_file, mime='text/csv')
+        ////test
